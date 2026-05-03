@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Block dashboard and auth pages from indexing
+Disallow: /seller/
+Disallow: /buyer/
+Disallow: /admin/
+Disallow: /messages/
+Disallow: /login
+Disallow: /register/buyer
+Disallow: /verify-email/
+Disallow: /forgot-password
+
+# Allow blog and marketplace
+Allow: /listings/
+Allow: /blog/
+
+# Crawl delay for bots
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://saashub.in/sitemap.xml
