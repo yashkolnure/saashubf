@@ -7,7 +7,6 @@ Disallow: /buyer/
 Disallow: /admin/
 Disallow: /messages/
 Disallow: /login
-Disallow: /register/buyer
 Disallow: /verify-email/
 Disallow: /forgot-password
 
@@ -19,4 +18,4 @@ Allow: /blog/
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://saashub.in/sitemap.xml
+Sitemap: https://onlinesaasmarketplace.com/sitemap.xml

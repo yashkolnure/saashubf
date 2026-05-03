@@ -6,7 +6,7 @@ import api from '../../utils/api';
 import { FiClock, FiEye, FiTag, FiArrowRight } from 'react-icons/fi';
 import { formatDistanceToNow } from 'date-fns';
 
-const SITE_URL = 'https://saashub.in';
+const SITE_URL = 'https://onlinesaasmarketplace.com';
 
 export default function BlogListPage() {
   const [posts, setPosts] = useState([]);
@@ -74,9 +74,9 @@ export default function BlogListPage() {
   return (
     <>
       <SEO
-        title="Blog — SaaS Insights, Guides & Industry Trends"
-        description="Explore expert articles on SaaS growth, white-label software strategies, B2B sales, and Indian tech ecosystem insights from the SaaSHub team."
-        keywords="SaaS blog India, white-label software guide, B2B SaaS insights, SaaS growth strategies, Indian SaaS industry, software marketplace blog"
+        title="Blog — SaaS Insights, White-Label Guides & India Tech Trends"
+        description="Expert articles on SaaS growth, white-label software strategies, B2B sales, pricing models, and Indian tech ecosystem insights. Guides for SaaS founders, resellers, and software buyers in India."
+        keywords="SaaS blog India, white label software guide India, B2B SaaS insights India, SaaS growth strategies India, Indian SaaS industry news, software reseller guide India, white label software tips, SaaS founder India, SaaS pricing India, SaaS business India, white label business India, software marketplace blog India, SaaS trends India 2025, B2B software India blog, cloud software guide India, SaaS startup guide India, how to sell SaaS India, how to buy white label software India"
         url="/blog"
         type="website"
         jsonLd={jsonLd}

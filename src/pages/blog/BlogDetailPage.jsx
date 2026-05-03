@@ -6,7 +6,7 @@ import api from '../../utils/api';
 import { FiClock, FiEye, FiArrowLeft, FiCalendar, FiUser, FiTag } from 'react-icons/fi';
 import { format } from 'date-fns';
 
-const SITE_URL = 'https://saashub.in';
+const SITE_URL = 'https://onlinesaasmarketplace.com';
 
 export default function BlogDetailPage() {
   const { slug } = useParams();

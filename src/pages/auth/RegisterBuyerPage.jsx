@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import api from '../../utils/api';
 import toast from 'react-hot-toast';
+import SEO from '../../components/common/SEO';
 
 export default function RegisterBuyerPage() {
   const navigate = useNavigate();
@@ -22,6 +23,12 @@ export default function RegisterBuyerPage() {
 
   return (
     <div className="min-h-screen bg-ink-50 flex items-center justify-center p-4">
+      <SEO
+        title="Create Free Buyer Account — Find SaaS Software India"
+        description="Register free on SaaSHub to browse 500+ verified SaaS & white-label software products from trusted Indian vendors. Contact sellers directly, compare pricing, and get quality software for your business."
+        keywords="buy SaaS software India, SaaS buyer account India, software marketplace registration India, browse white label software India, find business software India, free buyer account SaaS marketplace, B2B software buyer India, cloud software India buyer"
+        url="/register/buyer"
+      />
       <div className="bg-white rounded-3xl shadow-xl p-8 w-full max-w-md">
         <Link to="/" className="flex items-center gap-2 mb-8">
           <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center"><span className="text-white font-bold text-sm">S</span></div>

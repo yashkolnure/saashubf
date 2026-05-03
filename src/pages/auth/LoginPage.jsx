@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import toast from 'react-hot-toast';
+import SEO from '../../components/common/SEO';
 
 export default function LoginPage() {
   const { login } = useAuth();
@@ -23,6 +24,13 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen bg-ink-50 flex items-center justify-center p-4">
+      <SEO
+        title="Sign In to SaaSHub"
+        description="Sign in to your SaaSHub account. Manage your SaaS listings, track B2B leads, browse India's top white-label software products, and contact verified vendors directly."
+        keywords="SaaSHub login, SaaS marketplace login India, seller dashboard login, software marketplace sign in"
+        url="/login"
+        noindex
+      />
       <div className="bg-white rounded-3xl shadow-xl p-8 w-full max-w-md">
         <Link to="/" className="flex items-center gap-2 mb-8">
           <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center"><span className="text-white font-bold text-sm">S</span></div>

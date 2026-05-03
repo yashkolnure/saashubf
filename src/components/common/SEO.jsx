@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 
 const SITE_NAME = 'SaaSHub';
-const SITE_URL  = 'https://saashub.in';
+const SITE_URL  = 'https://onlinesaasmarketplace.com';
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.png`;
 
 // Comprehensive keyword pool — used as fallback for all pages
@@ -46,6 +46,35 @@ const DEFAULT_KEYWORDS = [
   'best white label software marketplace India', 'top Indian SaaS marketplace',
   'SaaS software comparison India', 'white label software solutions India',
   'SaaS subscription India', 'white label app India',
+
+  // Additional high-volume India-specific
+  'software as a service India', 'cloud based software India',
+  'buy software online India', 'software license India',
+  'best SaaS tools India 2025', 'top SaaS companies India',
+  'Indian software startup marketplace', 'SaaS product India',
+  'white label mobile app India', 'white label web app India',
+  'reseller software India', 'software with source code India',
+  'ready made software India', 'turnkey software solution India',
+  'software business India', 'online software store India',
+  'software product company India', 'Indian SaaS vendor',
+  'B2B marketplace India software', 'digital product marketplace India',
+
+  // Niche verticals India
+  'EdTech software India', 'HealthTech software India',
+  'LMS software India', 'telemedicine software India',
+  'logistics software India', 'delivery management software India',
+  'real estate software India', 'property management software India',
+  'school management software India', 'hospital management software India',
+  'event management software India', 'field service software India',
+  'inventory management software India', 'billing software India',
+  'GST billing software India', 'invoicing software India',
+
+  // Buyer-intent long-tail
+  'where to buy SaaS software India', 'how to buy white label software India',
+  'affordable white label software India', 'cheap SaaS software India',
+  'verified SaaS software India', 'trusted SaaS vendors India',
+  'best software for business India', 'SME software India',
+  'MSME software India', 'startup software tools India',
 ].join(', ');
 
 const DEFAULT_DESC = "India's #1 marketplace to buy and sell SaaS software and white-label solutions. Discover 500+ verified products — CRM, ERP, HR, AI, restaurant, gym, booking software and more. Free to list. Zero commission.";

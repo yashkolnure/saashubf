@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/common/Navbar';
+import SEO from '../components/common/SEO';
 
 export default function NotFoundPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Page Not Found"
+        description="The page you're looking for doesn't exist. Browse 500+ verified SaaS and white-label software products on SaaSHub — India's #1 software marketplace."
+        noindex
+      />
       <Navbar />
       <div className="flex-1 flex items-center justify-center text-center px-4">
         <div>

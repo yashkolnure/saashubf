@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import api from '../../utils/api';
 import toast from 'react-hot-toast';
+import SEO from '../../components/common/SEO';
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState('');
@@ -14,6 +15,7 @@ export default function ForgotPasswordPage() {
   };
   return (
     <div className="min-h-screen bg-ink-50 flex items-center justify-center p-4">
+      <SEO title="Reset Password | SaaSHub" description="Reset your SaaSHub account password to regain access to your seller or buyer dashboard." noindex />
       <div className="bg-white rounded-3xl shadow-xl p-8 w-full max-w-md">
         <Link to="/" className="flex items-center gap-2 mb-8"><div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center"><span className="text-white font-bold text-sm">S</span></div><span className="font-bold text-xl text-ink-900">SaaSHub</span></Link>
         {sent ? (

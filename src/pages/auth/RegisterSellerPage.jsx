@@ -4,6 +4,7 @@ import api from '../../utils/api';
 import toast from 'react-hot-toast';
 import DisclaimerBox from '../../components/common/DisclaimerBox';
 import { FiCheckCircle } from 'react-icons/fi';
+import SEO from '../../components/common/SEO';
 
 const STEPS = ['Account', 'Company', 'Review'];
 
@@ -36,6 +37,12 @@ export default function RegisterSellerPage() {
 
   return (
     <div className="min-h-screen bg-ink-50 flex items-center justify-center p-4">
+      <SEO
+        title="List Your SaaS Software Free — Sell on India's #1 Marketplace"
+        description="Create a free seller account on SaaSHub and list your SaaS or white-label software in front of thousands of verified buyers across India. Zero commission. Get genuine B2B leads. Verified seller badge included."
+        keywords="list SaaS software India, sell SaaS software India, free SaaS listing India, white label software seller India, SaaS vendor registration India, sell software online India, B2B software leads India, list white label software India, software marketplace seller account, SaaS reseller marketplace India, free software listing marketplace, sell white label software online, software vendor India registration, SaaS startup India list product, white label software marketplace India seller"
+        url="/register/seller"
+      />
       <div className="bg-white rounded-3xl shadow-xl p-8 w-full max-w-xl">
         <Link to="/" className="flex items-center gap-2 mb-6">
           <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center"><span className="text-white font-bold text-sm">S</span></div>

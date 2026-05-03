@@ -118,7 +118,7 @@ function HeroMockup() {
             ))}
           </div>
           <div style={{ flex: 1, background: 'rgba(255,255,255,0.04)', borderRadius: 6, padding: '3px 10px', fontSize: 10.5, color: 'rgba(255,255,255,0.28)', fontFamily: 'monospace', display: 'flex', alignItems: 'center', gap: 6 }}>
-            <FiLock size={9} color="rgba(255,255,255,0.25)" /> saashub.in/listings
+            <FiLock size={9} color="rgba(255,255,255,0.25)" /> onlinesaasmarketplace.com/listings
           </div>
           <FiGrid size={12} color="rgba(255,255,255,0.2)" />
         </div>
@@ -431,7 +431,7 @@ export default function HomePage() {
     else navigate('/listings');
   };
 
-  const SITE = 'https://saashub.in';
+  const SITE = 'https://onlinesaasmarketplace.com';
   const homeJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',

@@ -107,7 +107,7 @@ export default function ListingDetailPage() {
     ? 'linear-gradient(135deg, #f59e0b, #d97706)'
     : 'linear-gradient(135deg, #7c3aed, #4f46e5)';
 
-  const SITE_URL = 'https://saashub.in';
+  const SITE_URL = 'https://onlinesaasmarketplace.com';
   const isWLabel = listing.listingType === 'whitelabel';
   const vendorName = listing.seller?.company?.legalName || listing.seller?.name || 'SaaSHub Vendor';
 

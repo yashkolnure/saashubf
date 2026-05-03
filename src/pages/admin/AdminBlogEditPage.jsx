@@ -253,7 +253,7 @@ export default function AdminBlogEditPage() {
           {(form.metaTitle || form.title) && (
             <div className="border border-[var(--border)] rounded-xl p-4 bg-white">
               <p className="text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-3">Google Preview</p>
-              <p className="text-xs text-green-700 mb-0.5">saashub.in › blog › {form.slug || 'post-slug'}</p>
+              <p className="text-xs text-green-700 mb-0.5">onlinesaasmarketplace.com › blog › {form.slug || 'post-slug'}</p>
               <p className="text-[#1a0dab] text-base font-medium mb-0.5 leading-tight hover:underline cursor-pointer">
                 {(form.metaTitle || form.title).slice(0, 70)}{(form.metaTitle || form.title).length > 70 ? '...' : ''}
               </p>
