@@ -563,7 +563,7 @@ export default function HomePage() {
         }
         .seller-feature:hover { background:rgba(255,255,255,0.07); border-color:rgba(255,255,255,0.15); }
 
-        .pw { max-width:1200px; margin:0 auto; padding:0 28px; }
+        .pw { max-width:1300px; margin:0 auto; padding:0 12px; }
         .section { padding:96px 0; }
         .section-sm { padding:72px 0; }
 
